@@ -1,0 +1,210 @@
+@import url(header.css);
+@import url(hero.css);
+@import url(about.css);
+@import url(contact.css);
+@import url(skills.css);
+@import url(habilities.css);
+@import url(contact-form.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: 'DM Sans', sans-serif;
+}
+body{
+    width: 95%;
+    margin: 0 auto;
+    background-color: #171717;
+}
+footer{text-align: center;
+    color: #4f4f4f;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+header{
+    margin: 28px;
+    margin-bottom: 185px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    color: #fff;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li a{
+    margin-right: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 23.44px;
+}
+header nav ul li a:hover{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    transition: border-bottom .5ms;
+}
+
+.hero{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.hero-description{
+    margin-right: 105px;
+    width: 453px; 
+}
+.hero-description h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62.5px;
+    color:#fff;
+}
+.hero-description p{
+    color: #828282;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23.44px;
+    margin-top: 9px;
+}
+.hero-description button{
+    width: 143px;
+    height: 42px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18.23px;
+    color: #fff;
+    background: none;
+    margin-right: 10px;
+    margin-top: 32px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.hero-description button:hover{
+    background: #202020;
+}
+.hero-description .green-button{
+    background: #27ae60;
+    border: none;
+}
+.hero-description .green-button:hover{
+    background: #209250;
+}
+.hero .box-image img{
+    width: 600px;
+    border-radius: 50%;
+    border: 1px solid #202020;
+    padding: 16px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 38px;
+}
+.contact-text{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 18px;
+    line-height: 23px;
+}
+.contact-text h4{
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.habilities{
+    margin: 120px 0;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.habilities h2{
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 100px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.box-content{
+    width: 350px;
+    background: #212121;
+    padding: 34px 50px;
+}
+.box-content:hover{
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 4px solid #27ae60;
+}
+
+.box-content p{
+    text-transform: capitalize;
+    margin-top: 30px;
+    color: #535353;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+}
+.about h2{
+    margin-bottom: 38px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62.5px;
+    
+
+}
+.about p{
+    font-size: 18px;
+    line-height: 23.44px;
+}
+.about{
+    margin: 47px 348px;
+    text-align: center;
+    color: #fff;
+}
+.skills h2{
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 141px 0 73px 0;
+}
+.skills-container{
+    text-transform: uppercase;
+    padding: 60px 120px;
+    margin: 73px 131px 100px;
+    align-items: center;
+    gap: 150px;
+    justify-content: center;
+    display: flex;
+    background-color: #212121
+}
+.skill-description{
+    text-align: center;
+}
+.skills-container p{
+    color: #4f4f4f;
+    font-weight: 700;
+    font-size: 72px;
+}
+.skills-container span{
+    color: #27ae60;
+    font-weight: 700;
+    font-size: 24px;
+}

@@ -1,0 +1,118 @@
+.contact-form h2{
+    margin-bottom: 82px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+}
+.form-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-info input{
+    width: 350px;
+    padding-bottom: 10px;
+    margin-right: 37px;
+    margin-bottom: 47px;
+    border: none;
+    border-bottom: 1px solid #4f4f4f;
+    background: none;
+    color: #4f4f4f;
+    font-weight: 700;
+    font-size: 14px;
+}
+.form-info input:hover,
+.form-info input:focus{
+    outline: none;
+    border-bottom: 1px solid #27ae60;
+}
+.form-info textarea{
+    resize: none;
+    border: 1px solid #4f4f4f;
+    padding: 10px 12px;
+    width: 750px;
+    height: 109px;
+    background: none;
+    color: #4f4f4f;
+    font-weight: 700;
+    font-size: 14px;
+}
+.form-info textarea:focus{
+    outline: none;
+    border: 1px solid #27ae60;
+}
+.form-info button{
+    cursor: pointer;
+    border: none;
+    margin: 29px 0 160px 0;
+    padding: 12px 33px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    background: #27ae60;
+}
+.form-info button:hover{
+    background: #209250;
+}
+.contact-form h2{
+    margin-bottom: 82px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+}
+.form-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-info input{
+    width: 350px;
+    padding-bottom: 10px;
+    margin-right: 37px;
+    margin-bottom: 47px;
+    border: none;
+    border-bottom: 1px solid #4f4f4f;
+    background: none;
+    color: #4f4f4f;
+    font-weight: 700;
+    font-size: 14px;
+}
+.form-info input:hover,
+.form-info input:focus{
+    outline: none;
+    border-bottom: 1px solid #27ae60;
+}
+.form-info textarea{
+    resize: none;
+    border: 1px solid #4f4f4f;
+    padding: 10px 12px;
+    width: 750px;
+    height: 109px;
+    background: none;
+    color: #4f4f4f;
+    font-weight: 700;
+    font-size: 14px;
+}
+.form-info textarea:focus{
+    outline: none;
+    border: 1px solid #27ae60;
+}
+.form-info button{
+    cursor: pointer;
+    border: none;
+    margin: 29px 0 160px 0;
+    padding: 12px 33px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    background: #27ae60;
+}
+.form-info button:hover{
+    background: #209250;
+}

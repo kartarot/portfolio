@@ -1,0 +1,26 @@
+header{
+    margin: 28px;
+    margin-bottom: 185px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    color: #fff;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li a{
+    margin-right: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 23.44px;
+}
+header nav ul li a:hover{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    transition: border-bottom .5ms;
+}

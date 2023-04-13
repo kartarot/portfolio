@@ -1,0 +1,17 @@
+.about h2{
+    margin-bottom: 38px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62.5px;
+    
+
+}
+.about p{
+    font-size: 18px;
+    line-height: 23.44px;
+}
+.about{
+    margin: 47px 348px;
+    text-align: center;
+    color: #fff;
+}

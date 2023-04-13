@@ -1,0 +1,31 @@
+.skills h2{
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    margin: 141px 0 73px 0;
+}
+.skills-container{
+    text-transform: uppercase;
+    padding: 60px 120px;
+    margin: 73px 131px 100px;
+    align-items: center;
+    gap: 150px;
+    justify-content: center;
+    display: flex;
+    background-color: #212121
+}
+.skill-description{
+    text-align: center;
+}
+.skills-container p{
+    color: #4f4f4f;
+    font-weight: 700;
+    font-size: 72px;
+}
+.skills-container span{
+    color: #27ae60;
+    font-weight: 700;
+    font-size: 24px;
+}

@@ -1,0 +1,16 @@
+.contact{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 38px;
+}
+.contact-text{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 18px;
+    line-height: 23px;
+}
+.contact-text h4{
+    font-weight: 700;
+    text-transform: capitalize;
+}
